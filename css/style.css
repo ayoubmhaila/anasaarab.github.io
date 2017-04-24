@@ -1,35 +1,51 @@
-.container-fluid {
+#header{
 	background: black;
-	
+}
+.container-fluid {
+	background: grey;
+		padding: 0px;
+		margin: 0px;
 }
 .container{
 	background: red;
-	height: 1200px;
 	padding: 0px;
 }
-.slider{
-	background: blue;
- 	height: 390px;
 
+h2{
+	font-size: 25px;
+	color: orange;
 }
-#lktba{
-	background:rgba(0,0,0,0.3);
+#menu{
+	padding: 0px;
+	margin: 0px;
+	margin-top: 0px;
 }
-#lktba h1{
-		color: white;
+.clear{
+	clear: both;
 }
-
+.list-group-item{	
+	margin: 0px;
+}
+.procedures{
+	margin-left: 70px;
+	margin-top: 70px;
+	height: 80px;
+	width: 300px;
+	background: yellow;
+	text-align: center;
+}
+.procedures h2{
+	line-height: 80px;
+	
+}
 @media (max-width: 980px) {
   .container {
     width: 100%;
   }
-  #lktba{
-	margin-top: 100px;
-}
-  #lktba h1{
-	font-size: 60px;
-}
   #menu{
   	display: none;
   }
+}
+.navbar{
+	background: black;	
 }
