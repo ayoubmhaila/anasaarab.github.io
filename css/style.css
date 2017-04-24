@@ -36,16 +36,10 @@ h2{
 }
 .procedures h2{
 	line-height: 80px;
-	
+
 }
 @media (max-width: 980px) {
   .container {
     width: 100%;
   }
-  #menu{
-  	display: none;
-  }
-}
-.navbar{
-	background: black;	
 }
