@@ -20,7 +20,7 @@
 		color: white;
 }
 
-@media (max-width: 359px) {
+@media (max-width: 980px) {
   .container {
     width: 100%;
   }
