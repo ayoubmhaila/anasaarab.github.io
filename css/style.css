@@ -15,7 +15,16 @@
 #lktba{
 	background:rgba(0,0,0,0.3);
 }
-#lktba h2{
+#lktba h1{
 
 		color: white;
+}
+
+@media (max-width: 359px) {
+  .container {
+    width: 100%;
+  }
+  #menu{
+  	display: none;
+  }
 }
